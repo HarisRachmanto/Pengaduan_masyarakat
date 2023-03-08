@@ -1,0 +1,16 @@
+body {
+  background-image: url('../img/bg.jpg');
+  background-size: cover;
+}
+
+.center {
+  width: 500px;
+  height: 500px;
+  background-color: black;
+  opacity: 85%;
+  margin: auto;
+}
+
+.isi-login {
+  color: white;
+}

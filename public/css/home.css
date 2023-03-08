@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra');
+@import url('https://fonts.googleapis.com/css2?family=Plus Jakarta Sans');
+body{
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+}
+
+.main{
+    margin: 100px;
+    display: flex;
+    font-family: 'Almarai';
+    flex-direction: wrap;
+}
+
+.left_main{
+    width: 50%;
+    margin-top: 50px;
+    color: white;
+}
+
+.SD{
+    font-size: 50px;
+    font-weight: 1000;
+    font-family: 'Almendra';
+}
+
+.isi{
+    font-size: 25px;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 50;
+    opacity: 75%;
+}
+
+.left_main button{
+    margin-top: 15px;
+    font-size: 15px;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: white;
+    border-color: white;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    font-weight: 500;
+}
+
+.left_main button:hover{
+    background-color: rgba(128, 128, 128, 0.777);
+    border-color: rgba(128, 128, 128, 0.777);
+    color: white;
+}
+
+.right_main{
+    width: 50%;
+}
+
+.right_main img{
+    height: 450px;
+}
+
